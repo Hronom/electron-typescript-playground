@@ -2,9 +2,9 @@
   "name": "electron-typescript-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "out/index.js",
   "scripts": {
-    "compile": "tsc && copyfiles -f src/index.html build",
+    "compile": "tsc && copyfiles -f src/index.html out",
     "start": "npm run compile && electron ."
   },
   "author": "Hronom",
