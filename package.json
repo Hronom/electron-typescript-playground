@@ -1,0 +1,20 @@
+{
+  "name": "electron-typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "compile": "tsc && copyfiles -f src/index.html build",
+    "start": "npm run compile && electron ."
+  },
+  "author": "Hronom",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "2.3.0",
+    "electron": "9.0.4",
+    "electron-typescript-definitions": "8.3.0",
+    "path": "0.12.7",
+    "typescript": "3.9.5"
+  },
+  "dependencies": {}
+}
