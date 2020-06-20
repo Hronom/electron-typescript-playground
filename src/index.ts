@@ -7,7 +7,7 @@ app.on('ready', () => {
   const win = new BrowserWindow({
     width: 600,
     height: 400,
-    title: "Test Electron app"
+    title: "electron-typescript-playground"
   });
 
   app.setBadgeCount(3);
